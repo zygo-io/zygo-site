@@ -1,0 +1,14 @@
+{
+  "jspm": {
+    "name": "zygo-site",
+    "directories": {
+      "baseURL": "public",
+      "lib": "public/app"
+    },
+    "dependencies": {
+      "css": "^0.1.0",
+      "jsx": "^0.1.1",
+      "zygo": "^0.2.0"
+    }
+  }
+}

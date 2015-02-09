@@ -1,0 +1,12 @@
+{
+  "routes": "zygo-blog",
+  "middleware": "database",
+  "defaultContext": {
+    "menu": {
+      "tutorials": "/category/this",
+      "overview": "/category/this2",
+      "docs": "/",
+      "faq": "/"
+    }
+  }
+}
