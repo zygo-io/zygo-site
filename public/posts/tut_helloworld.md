@@ -1,10 +1,11 @@
 ---
-title: hello world!
+title: Hello World Tutorial
 subtitle: Yet Another Hello World. Sorry.
 category: tutorial
 id: helloworld
-thumb: Once
+thumb: The universally recognized tutorial. Here we create a very simple zygo application rendering "Hello World!" to the DOM.
 date: 10 Feb 2015 14:49
+back_img: /assets/tutorial_bg.jpg
 ---
 
 If you read through the [prerequisites](/category/tutorial/post/prereq) you'll have a pretty good idea of what you _need_ for zygo to work, but how do you _use_ this stuff? Never fear! Hello world is here. In this tutorial we set up a simple zygo application and run you through creating a HelloWorld component and serving it.
@@ -74,7 +75,7 @@ div {
 }
 ```
 
-And add the following line in `lib/HelloWorld.jsx`:
+And add the following line to `lib/HelloWorld.jsx`:
 
 ```javascript
 import './HelloWorld.css!';
