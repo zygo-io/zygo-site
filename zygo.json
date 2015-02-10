@@ -1,7 +1,8 @@
 {
-  "routes": "zygo-blog",
+  "routes": "routes",
   "middleware": "database",
   "defaultContext": {
+    "logo": "/assets/logo.png",
     "menu": {
       "tutorials": "/category/this",
       "overview": "/category/this2",
@@ -9,5 +10,6 @@
       "faq": "/"
     }
   },
-  "env": "development"
+  "env": "development",
+  "buildDir": "public/build"
 }

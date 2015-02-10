@@ -6,8 +6,9 @@
       "lib": "public/app"
     },
     "dependencies": {
-      "css": "^0.1.0",
+      "css": "^0.1.1",
       "jsx": "^0.1.1",
+      "react": "^0.12.2",
       "zygo": "~0.3.0",
       "zygo-blog": "^0.3.1"
     }
