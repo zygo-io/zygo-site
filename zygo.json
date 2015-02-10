@@ -5,8 +5,8 @@
     "logo": "/assets/logo.png",
     "menu": {
       "tutorials": "/category/tutorial",
-      "overview": "/category/overview",
       "docs": "/category/docs",
+      "overview": "/post/overview",
       "faq": "/post/faq"
     }
   },
