@@ -12,19 +12,14 @@ Metadata associated with the component. Currently only `meta.title` is valid, an
 
 - `context.curRoute`  
 Data associated with the route request that is currently rendered.  
-
 `context.curRoute.routes`  
 The matched routes of the request.  
-
 `context.curRoute.path`  
 The route path.  
-
 `context.curRoute.[option]`  
 The options in the matched route path are embedded directly into the curRoute object.  
-
 `context.curRoute.headers`  
 The request headers.  
-
 `context.curRoute.method`  
 The request method.  
 
