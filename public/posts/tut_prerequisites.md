@@ -4,6 +4,7 @@ subtitle: What do you need for the tutorials?
 category: tutorial
 id: prereq
 thumb: In this post we detail what you need to get started with zygo.
+date: 10 Feb 2015 15:49
 ---
 
 Zygo is first and foremost a _render server_, built for apps using [JSPM](https://github.com/jspm/jspm-cli) for frontend package management and [React](https://facebook.github.io/react/) for component code. To start a simple zygo application, ensure you have the following packages globally installed:

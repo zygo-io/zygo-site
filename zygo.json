@@ -4,10 +4,10 @@
   "defaultContext": {
     "logo": "/assets/logo.png",
     "menu": {
-      "tutorials": "/category/this",
-      "overview": "/category/this2",
-      "docs": "/",
-      "faq": "/"
+      "tutorials": "/category/tutorial",
+      "overview": "/category/overview",
+      "docs": "/category/docs",
+      "faq": "/post/faq"
     }
   },
   "env": "development",

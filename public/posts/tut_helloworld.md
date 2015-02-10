@@ -4,6 +4,7 @@ subtitle: Yet Another Hello World. Sorry.
 category: tutorial
 id: helloworld
 thumb: Once
+date: 10 Feb 2015 14:49
 ---
 
 If you read through the [prerequisites](/category/tutorial/post/prereq) you'll have a pretty good idea of what you _need_ for zygo to work, but how do you _use_ this stuff? Never fear! Hello world is here. In this tutorial we set up a simple zygo application and run you through creating a HelloWorld component and serving it.
@@ -37,8 +38,46 @@ First, let's set up our router. Create a file called `routes.js` in the base dir
 
 ```javascript
 export default {
-  component: "app/HelloWorld.jsx!"
+  component: "lib/HelloWorld.jsx!"
 }
 ```
 
-This tells zygo that the component to be rendered for the base (`/`) route is our HelloWorld component.
+This tells zygo that the component to be rendered for the base (`/`) route is our HelloWorld component. Next we create a simple server config. Create another file called `zygo.json` in the base directory:
+
+```json
+{
+  "routes": "./routes"
+}
+```
+
+Here we are just pointing zygo to our routes config. Lastly, we need to actually write the component! As can be seen above, we pointed the base route to `lib/HelloWorld.jsx!`. So create the file `lib/HelloWorld.jsx`:
+
+```javascript
+import React from 'react';
+
+export default React.createClass({
+  render: function() {
+    return (
+      <div> Hello World! </div>
+    );
+  }
+});
+```
+
+This is just a stock standard React component. To test the application out, simply run `zygo --serve` and point your favourite browser to `localhost:8080`;
+
+For a little bit of pizazz in terrible taste, let's add some css to our component. Create a file `lib/HelloWorld.css`:
+
+```css
+div {
+  background-color: green;
+}
+```
+
+And add the following line in `lib/HelloWorld.jsx`:
+
+```javascript
+import './HelloWorld.css!';
+```
+
+Simply run zygo again with `zygo --serve` and navigate to `localhost:8080`. Voila!
