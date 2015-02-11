@@ -11,8 +11,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.5",
     "jsx": "github:floatdrop/plugin-jsx@0.1.1",
     "react": "npm:react@0.12.2",
-    "zygo": "github:zygo-io/zygo@0.3.1",
-    "zygo-blog": "github:zygo-io/zygo-blog@0.3.2",
+    "zygo": "github:zygo-io/zygo@0.3.2",
+    "zygo-blog": "github:zygo-io/zygo-blog@0.3.3",
     "github:floatdrop/plugin-jsx@0.1.1": {
       "react-tools": "npm:react-tools@0.12.2"
     },
@@ -85,9 +85,28 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "prism": "github:LeaVerou/prism@gh-pages",
       "react": "npm:react@0.12.2",
-      "zygo": "github:zygo-io/zygo@0.3.1"
+      "zygo": "github:zygo-io/zygo@0.3.2"
+    },
+    "github:zygo-io/zygo-blog@0.3.3": {
+      "css": "github:systemjs/plugin-css@0.1.5",
+      "fs": "github:jspm/nodelibs-fs@0.1.1",
+      "http": "github:jspm/nodelibs-http@1.7.0",
+      "jsx": "github:floatdrop/plugin-jsx@0.1.1",
+      "marked": "npm:marked@0.3.3",
+      "path": "github:jspm/nodelibs-path@0.1.0",
+      "prism": "github:LeaVerou/prism@gh-pages",
+      "react": "npm:react@0.12.2",
+      "zygo": "github:zygo-io/zygo@0.3.2"
     },
     "github:zygo-io/zygo@0.3.1": {
+      "chai": "npm:chai@1.10.0",
+      "css": "github:systemjs/plugin-css@0.1.5",
+      "jsx": "github:floatdrop/plugin-jsx@0.1.1",
+      "mocha": "npm:mocha@1.21.5",
+      "react": "npm:react@0.12.2",
+      "url-pattern": "npm:url-pattern@0.6.0"
+    },
+    "github:zygo-io/zygo@0.3.2": {
       "chai": "npm:chai@1.10.0",
       "css": "github:systemjs/plugin-css@0.1.5",
       "jsx": "github:floatdrop/plugin-jsx@0.1.1",
