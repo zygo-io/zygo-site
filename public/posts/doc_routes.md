@@ -3,6 +3,7 @@ title: Routes.js
 thumb: The zygo router's configuration file.
 id: doc-routes
 category: docs
+date: 11 Feb 2015 15:00
 ---
 
 `routes.js` is the routing configuration file. Currently this is required by zygo - a 'CGI' mode based on directory structure is planned for the future. The structure is as follows:

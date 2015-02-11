@@ -1,0 +1,7 @@
+div.article-listing {}
+
+div.article-listing + div.article-listing {}
+
+div.article-listing div#author-wrapper {}
+
+div.article-listing div#post-wrapper {}

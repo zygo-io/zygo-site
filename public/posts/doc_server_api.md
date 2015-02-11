@@ -3,6 +3,7 @@ title: Server-side API
 thumb: The zygo server API.
 id: doc-server-api
 category: docs
+date: 11 Feb 2015 21:00
 ---
 
 Create a new zygo-server instance by passing it the path to your `zygo.json` config file, and then initialising it. Note that the `zygo.initialise()` function returns a promise, resolving when it is finished.

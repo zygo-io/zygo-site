@@ -1,0 +1,11 @@
+/* fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,500,700);
+
+/* get rid of margins on the side of the page */
+body {}
+
+/* fill in space taken up by navbar */
+div.navbarFill {}
+
+@media screen and (max-width: 300px) {}
+}

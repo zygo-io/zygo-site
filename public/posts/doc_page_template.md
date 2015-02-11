@@ -3,6 +3,7 @@ title: Page Template
 thumb: Customizing the zygo page template.
 id: doc-page-template
 category: docs
+date: 11 Feb 2015 14:00
 ---
 
 Zygo uses a Handlebars template to render your app on the server. The default template can be found [here](https://github.com/zygo-io/zygo-server/blob/master/defaults/template.hb) - if you wish to customise it, I'd recommend you use this as a base to avoid headache.

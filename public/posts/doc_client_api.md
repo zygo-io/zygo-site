@@ -3,6 +3,7 @@ title: Client-side API
 thumb: The zygo client API.
 id: doc-client-api
 category: docs
+date: 11 Feb 2015 20:00
 ---
 
 A zygo client instance can be accessed by importing the `zygo` module through [SystemJS](https://github.com/systemjs/systemjs). This is how the client is initialized by [zygo-server](https://github.com/zygo-io/zygo-server) on page load, but if you see a use-case you can use the client as a stand-alone module:

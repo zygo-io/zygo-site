@@ -3,6 +3,7 @@ title: Context
 thumb: The global data store, mutated by handlers at render time.
 id: doc-context
 category: docs
+date: 11 Feb 2015 17:00
 ---
 
 The global context object is the means by which data is passed around in zygo. It is mutated at render time by components' [handlers](https://github.com/zygo-io/zygo-server/wiki/Handlers). The context object has several properties set by zygo:

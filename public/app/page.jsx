@@ -1,5 +1,5 @@
 import "./page.css!";
-import Page from "zygo-blog/app/page.jsx!";
+import Page from "zygo-blog/lib/page.jsx!";
 import React from "react";
 
 export default React.createClass({

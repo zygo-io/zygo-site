@@ -1,0 +1,29 @@
+/* container */
+div.article-container {}
+
+/* article itself */
+div.article {}
+
+/* paragraph elements */
+div.article p {}
+
+div.article p::first-letter {}
+
+/* markup quotes/code */
+div.article blockquote {}
+
+div.article pre {}
+
+div.article code {}
+
+div.article pre > code {}
+
+/* links */
+div.article a {}
+
+div.article a:hover {}
+
+/* lists */
+div.article li {}
+
+div.article ol {}

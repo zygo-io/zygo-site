@@ -3,6 +3,7 @@ title: Components
 thumb: Zygo-specific component api.
 id: doc-components
 category: docs
+date: 11 Feb 2015 19:00
 ---
 
 Zygo uses [React](http://facebook.github.io/react) components as its unit of routing. A component module must export as `default` a [React](http://facebook.github.io/react) component:

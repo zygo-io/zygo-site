@@ -3,6 +3,7 @@ title: Zygo.json
 thumb: The Zygo.json configuration file API.
 id: doc-zygo
 category: docs
+date: 11 Feb 2015 16:00
 ---
 
 `zygo.json` is the zygo server configuration file. It supports the following properties, square brackets representing defaults:

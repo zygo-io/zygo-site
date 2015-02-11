@@ -3,6 +3,7 @@ title: Handlers
 thumb: The zygo data buses from your stores to components.
 id: doc-handlers
 category: docs
+date: 11 Feb 2015 18:00
 ---
 
 Handlers are the data buses for zygo. A handler module must export a `handler` function that takes in the global [context](https://github.com/zygo-io/zygo-server/wiki/Context) object as a parameter. The handler should mutate context with the data needed by its associated component.

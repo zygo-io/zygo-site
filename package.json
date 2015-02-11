@@ -1,6 +1,5 @@
 {
   "jspm": {
-    "name": "zygo-site",
     "directories": {
       "baseURL": "public",
       "lib": "public/app"
