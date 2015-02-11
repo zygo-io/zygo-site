@@ -24,17 +24,17 @@ Matches the given routePath against `zygo.routes`, runs the matched routes' hand
 Takes the currently visible routes (in `zygo.context.curRoute.routes`) and re-renders them with the current `zygo.context`. The route handlers are _not_ run again. This is useful if you want fine-grained control over context updates and re-renders.
 
 - `zygo.setMetadata()`  
-Sets the page title to `context.meta.title`, pushes the current context to the HTML5 history API if possible and moves `context.loadRoute` into `context.curRoute`. As this suggests, it is run by zygo at the end of a `route()` transition.
+Sets the page title to `context.templateMeta.title`, pushes the current context to the HTML5 history API if possible and moves `context.loadRoute` into `context.curRoute`. As this suggests, it is run by zygo at the end of a `route()` transition.
 
 The zygo instance exposes the following private API:
 
 - `zygo._setContext(context)`  
 `zygo._setRoutes(routes)`  
 `zygo._setBundles(bundles)`  
-Setters for the context, routes and bundles visible to zygo respectively. For more details on these, see the [https://github.com/zygo-io/zygo-server/wiki](zygo-server wiki).
+Setters for the context, routes and bundles visible to zygo respectively. For more details on these, see the [/category/docs](respective docs).
 
 - `zygo._addLinkHandlers()`  
 Sets up click handlers to automatically wrap anchor tags as route transitions if they correspond to a valid route.
 
 - `zygo._deserializeContext()`  
-Deserializes `zygo.context` if it has previously been serialized. See the [https://github.com/zygo-io/zygo-server/wiki](zygo-server wiki) for details.
+Deserializes `zygo.context` if it has previously been serialized. See the [/category/docs](respective docs) for details.

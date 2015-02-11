@@ -6,7 +6,7 @@ category: docs
 date: 11 Feb 2015 18:00
 ---
 
-Handlers are the data buses for zygo. A handler module must export a `handler` function that takes in the global [context](https://github.com/zygo-io/zygo-server/wiki/Context) object as a parameter. The handler should mutate context with the data needed by its associated component.
+Handlers are the data buses for zygo. A handler module must export a `handler` function that takes in the global [context](/category/docs/post/doc-context) object as a parameter. The handler should mutate context with the data needed by its associated component.
 
 The `handler` function should either return nothing or an object containing a _redirect_ property. This will cause the router to redirect to the given path, useful if you wish to implement authentication at a base route level, for instance.
 

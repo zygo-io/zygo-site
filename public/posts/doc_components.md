@@ -15,7 +15,7 @@ export default React.createClass({ ... }); //es6!
 
 [JSPM](https://github.com/jspm/jspm-cli) handles the loading of ES6 for you, so there is no reason not to start using it today! \\(^_^)/
 
-Components need data, and zygo abstracts this need out with [`handlers`](https://github.com/zygo-io/zygo-server/wiki/Handlers). Handlers are specified in the component's [`statics`](http://facebook.github.io/react/docs/component-specs.html#statics) property:
+Components need data, and zygo abstracts this need out with [`handlers`](/category/docs/post/doc-handlers). Handlers are specified in the component's [`statics`](http://facebook.github.io/react/docs/component-specs.html#statics) property:
 
 ```javascript
 export default React.createClass({
@@ -30,7 +30,7 @@ export default React.createClass({
 
 Only one handler is run for a given component at render time - `clientHandler` and `serverHandler` take precedence over `handler`. All handlers are loaded and run by [JSPM](https://github.com/jspm/jspm-cli). Note that this means in order to use core node modules in your server-side handlers, you will need to install them via jspm: `jspm install http fs path` for instance.
 
-As detailed [here](https://github.com/zygo-io/zygo-server/wiki/Handlers), handlers populate the global [context](https://github.com/zygo-io/zygo-server/wiki/Context) object. This is passed to your component's `render` function via `this.props`:
+As detailed [here](/category/docs/post/doc-handlers), handlers populate the global [context](/category/docs/post/doc-context) object. This is passed to your component's `render` function via `this.props`:
 
 ```javascript
 export default React.createClass({

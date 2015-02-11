@@ -6,10 +6,10 @@ category: docs
 date: 11 Feb 2015 17:00
 ---
 
-The global context object is the means by which data is passed around in zygo. It is mutated at render time by components' [handlers](https://github.com/zygo-io/zygo-server/wiki/Handlers). The context object has several properties set by zygo:
+The global context object is the means by which data is passed around in zygo. It is mutated at render time by components' [handlers](/category/docs/post/doc-handlers). The context object has several properties set by zygo:
 
-- `context.meta`  
-Metadata associated with the component. Currently only `meta.title` is valid, and can be mutated in your handlers.
+- `context.templateMeta`  
+Metadata passed to the page template when rendered _on the server_. Currently only `templateMeta.title` is valid, and can be mutated in your server handlers. This is serialized out when passed to the client.
 
 - `context.curRoute`  
 Data associated with the route request that is currently rendered.  

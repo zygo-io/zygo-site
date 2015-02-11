@@ -17,5 +17,5 @@ The template essentially loads `system.js`, loads your package's `config.js`, cr
 * `context`: The global context object populated by the matched routes' handlers.
 * `path`: The path of the matched route.
 * `baseURL`: The url System.baseURL should be set to in order to find packages.
-* `meta`: Alias for `context.meta` - metadata populated by the handlers, such as `meta.title`.
+* `meta`: Alias for `context.templateMeta` - metadata populated by the handlers, such as `meta.title`.
 * `addLinkHandlers`: Alias for the `anchors` property in `zygo.json`. Whether to wrap anchor tags as route changes.

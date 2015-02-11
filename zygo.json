@@ -2,6 +2,9 @@
   "routes": "routes",
   "middleware": "database",
   "defaultContext": {
+    "templateMeta": {
+      "bodyClass": "zygo"
+    },
     "logo": "/assets/logo.png",
     "menu": {
       "tutorials": "/category/tutorial",
