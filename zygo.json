@@ -6,11 +6,14 @@
       "bodyClass": "zygo"
     },
     "logo": "/assets/logo.png",
+    "home": "/zygo",
     "menu": {
-      "tutorials": "/category/tutorial",
-      "docs": "/category/docs",
-      "overview": "/post/overview",
-      "faq": "/post/faq"
+      "getting started": "/zygo",
+      "tutorials": "/tutorials/",
+      "docs": "/docs/",
+      "overview": "/overview",
+      "faq": "/faq",
+      "github": "https://github.com/zygo-io"
     }
   },
   "env": "development",

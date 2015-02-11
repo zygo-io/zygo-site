@@ -1,7 +1,7 @@
 ---
 title: Hello World Tutorial
 subtitle: Yet Another Hello World. Sorry.
-category: tutorial
+category: tutorials
 id: hello-world
 thumb: The universally recognized tutorial. Here we create a very simple zygo application rendering "Hello World!" to the DOM.
 date: 10 Feb 2015 14:49

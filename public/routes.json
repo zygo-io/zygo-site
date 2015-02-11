@@ -1,3 +1,9 @@
 {
-  "/": "zygo-blog/routes.json"
+  "component": "app/page.jsx!",
+
+  "/:pid": "zygo-blog/views/article.jsx!",
+  "/:cid": {
+    "/": "zygo-blog/views/article-list.jsx!",
+    "/:pid": "zygo-blog/views/article.jsx!"
+  }
 }

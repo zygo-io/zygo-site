@@ -1,7 +1,7 @@
 ---
 title: Zygo Prerequisites
 subtitle: Getting started with zygo.
-category: tutorial
+category: tutorials
 id: prereq
 thumb: In this post we detail what you need to do to start hacking with zygo.
 date: 10 Feb 2015 15:49

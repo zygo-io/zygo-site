@@ -2,7 +2,7 @@
 title: Creating a blog with zygo blog
 subtitle: A simple use-case of the example "blogging platform".
 thumb: In this tutorial we set up a project with zygo-blog, a basic blogging platform written with zygo.
-category: tutorial
+category: tutorials
 id: create-blog
 date: 10 Feb 2015 13:49
 back_img: /assets/tutorial_bg.jpg

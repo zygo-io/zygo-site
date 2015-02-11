@@ -1,7 +1,7 @@
 ---
 title: Zygo
 subtitle: Because Zygomorphic is better than Isomorphic.
-id: index
+id: zygo
 back_img: /assets/index_bg.jpg
 ---
 
