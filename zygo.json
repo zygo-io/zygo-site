@@ -1,6 +1,7 @@
 {
   "routes": "public/routes.json",
-  "middleware": "database",
+  "middleware": "zygo-blog/database",
+  "postsDir": "public/posts",
   "defaultContext": {
     "templateMeta": {
       "bodyClass": "zygo"

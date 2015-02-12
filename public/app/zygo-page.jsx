@@ -1,4 +1,4 @@
-import BlogPage from 'zygo-blog/pages/page.jsx!';
+import BlogPage from 'zygo-blog/views/page.jsx!';
 
 import './zygo-page.css!';
 
