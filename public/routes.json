@@ -1,5 +1,5 @@
 {
-  "component": "app/page.jsx!",
+  "component": "app/zygo-page.jsx!",
 
   "/:pid": "zygo-blog/views/article.jsx!",
   "/:cid": {
