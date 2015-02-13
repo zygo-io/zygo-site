@@ -9,6 +9,7 @@ System.config({
 System.config({
   "map": {
     "css": "github:systemjs/plugin-css@0.1.5",
+    "image": "github:systemjs/plugin-image@0.1.0",
     "jsx": "github:floatdrop/plugin-jsx@0.1.1",
     "react": "npm:react@0.12.2",
     "zygo": "github:zygo-io/zygo@0.3.4",
