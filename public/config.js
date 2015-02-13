@@ -11,7 +11,7 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.5",
     "jsx": "github:floatdrop/plugin-jsx@0.1.1",
     "react": "npm:react@0.12.2",
-    "zygo": "github:zygo-io/zygo@0.3.3",
+    "zygo": "github:zygo-io/zygo@0.3.4",
     "zygo-blog": "github:zygo-io/zygo-blog@0.3.4",
     "github:floatdrop/plugin-jsx@0.1.1": {
       "react-tools": "npm:react-tools@0.12.2"
@@ -82,9 +82,9 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "prism": "github:LeaVerou/prism@gh-pages",
       "react": "npm:react@0.12.2",
-      "zygo": "github:zygo-io/zygo@0.3.3"
+      "zygo": "github:zygo-io/zygo@0.3.4"
     },
-    "github:zygo-io/zygo@0.3.3": {
+    "github:zygo-io/zygo@0.3.4": {
       "css": "github:systemjs/plugin-css@0.1.5",
       "jsx": "github:floatdrop/plugin-jsx@0.1.1",
       "react": "npm:react@0.12.2",
@@ -110,7 +110,7 @@ System.config({
     "npm:assert@1.3.0": {
       "util": "npm:util@0.10.3"
     },
-    "npm:ast-types@0.6.11": {
+    "npm:ast-types@0.6.12": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
@@ -404,7 +404,7 @@ System.config({
     },
     "npm:recast@0.9.18": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
-      "ast-types": "npm:ast-types@0.6.11",
+      "ast-types": "npm:ast-types@0.6.12",
       "esprima-fb": "npm:esprima-fb@10001.1.0-dev-harmony-fb",
       "fs": "github:jspm/nodelibs-fs@0.1.1",
       "private": "npm:private@0.1.6",
