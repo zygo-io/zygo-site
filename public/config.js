@@ -11,8 +11,8 @@ System.config({
     "css": "github:systemjs/plugin-css@0.1.5",
     "jsx": "github:floatdrop/plugin-jsx@0.1.1",
     "react": "npm:react@0.12.2",
-    "zygo": "github:zygo-io/zygo@0.3.2",
-    "zygo-blog": "github:zygo-io/zygo-blog@0.3.3",
+    "zygo": "github:zygo-io/zygo@0.3.3",
+    "zygo-blog": "github:zygo-io/zygo-blog@0.3.4",
     "github:floatdrop/plugin-jsx@0.1.1": {
       "react-tools": "npm:react-tools@0.12.2"
     },
@@ -20,7 +20,7 @@ System.config({
       "assert": "npm:assert@1.3.0"
     },
     "github:jspm/nodelibs-buffer@0.1.0": {
-      "buffer": "npm:buffer@3.0.1"
+      "buffer": "npm:buffer@3.0.2"
     },
     "github:jspm/nodelibs-constants@0.1.0": {
       "constants-browserify": "npm:constants-browserify@0.0.1"
@@ -60,9 +60,6 @@ System.config({
     "github:jspm/nodelibs-string_decoder@0.1.0": {
       "string_decoder": "npm:string_decoder@0.10.31"
     },
-    "github:jspm/nodelibs-tty@0.1.0": {
-      "tty-browserify": "npm:tty-browserify@0.0.0"
-    },
     "github:jspm/nodelibs-url@0.1.0": {
       "url": "npm:url@0.10.2"
     },
@@ -76,7 +73,7 @@ System.config({
       "clean-css": "npm:clean-css@3.0.10",
       "fs": "github:jspm/nodelibs-fs@0.1.1"
     },
-    "github:zygo-io/zygo-blog@0.3.3": {
+    "github:zygo-io/zygo-blog@0.3.4": {
       "css": "github:systemjs/plugin-css@0.1.5",
       "fs": "github:jspm/nodelibs-fs@0.1.1",
       "http": "github:jspm/nodelibs-http@1.7.0",
@@ -85,13 +82,11 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "prism": "github:LeaVerou/prism@gh-pages",
       "react": "npm:react@0.12.2",
-      "zygo": "github:zygo-io/zygo@0.3.2"
+      "zygo": "github:zygo-io/zygo@0.3.3"
     },
-    "github:zygo-io/zygo@0.3.2": {
-      "chai": "npm:chai@1.10.0",
+    "github:zygo-io/zygo@0.3.3": {
       "css": "github:systemjs/plugin-css@0.1.5",
       "jsx": "github:floatdrop/plugin-jsx@0.1.1",
-      "mocha": "npm:mocha@1.21.5",
       "react": "npm:react@0.12.2",
       "url-pattern": "npm:url-pattern@0.6.0"
     },
@@ -144,17 +139,10 @@ System.config({
       "parse-asn1": "npm:parse-asn1@2.0.0",
       "stream": "github:jspm/nodelibs-stream@0.1.0"
     },
-    "npm:buffer@3.0.1": {
+    "npm:buffer@3.0.2": {
       "base64-js": "npm:base64-js@0.0.8",
       "ieee754": "npm:ieee754@1.1.4",
       "is-array": "npm:is-array@1.0.1"
-    },
-    "npm:chai@1.10.0": {
-      "assertion-error": "npm:assertion-error@1.0.0",
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "deep-eql": "npm:deep-eql@0.1.3",
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:clean-css@3.0.10": {
       "buffer": "github:jspm/nodelibs-buffer@0.1.0",
@@ -192,7 +180,7 @@ System.config({
       "private": "npm:private@0.1.6",
       "process": "github:jspm/nodelibs-process@0.1.1",
       "q": "npm:q@1.1.2",
-      "recast": "npm:recast@0.9.17",
+      "recast": "npm:recast@0.9.18",
       "systemjs-json": "github:systemjs/plugin-json@0.1.0"
     },
     "npm:constants-browserify@0.0.1": {
@@ -234,10 +222,6 @@ System.config({
       "pbkdf2-compat": "npm:pbkdf2-compat@3.0.1",
       "public-encrypt": "npm:public-encrypt@1.1.2",
       "randombytes": "npm:randombytes@2.0.1"
-    },
-    "npm:deep-eql@0.1.3": {
-      "buffer": "github:jspm/nodelibs-buffer@0.1.0",
-      "type-detect": "npm:type-detect@0.1.1"
     },
     "npm:diffie-hellman@3.0.1": {
       "bn.js": "npm:bn.js@1.3.0",
@@ -353,14 +337,6 @@ System.config({
       "path": "github:jspm/nodelibs-path@0.1.0",
       "process": "github:jspm/nodelibs-process@0.1.1"
     },
-    "npm:mocha@1.21.5": {
-      "css": "github:systemjs/plugin-css@0.1.5",
-      "events": "github:jspm/nodelibs-events@0.1.0",
-      "fs": "github:jspm/nodelibs-fs@0.1.1",
-      "path": "github:jspm/nodelibs-path@0.1.0",
-      "process": "github:jspm/nodelibs-process@0.1.1",
-      "tty": "github:jspm/nodelibs-tty@0.1.0"
-    },
     "npm:once@1.3.1": {
       "wrappy": "npm:wrappy@1.0.1"
     },
@@ -426,7 +402,7 @@ System.config({
       "string_decoder": "npm:string_decoder@0.10.31",
       "util": "github:jspm/nodelibs-util@0.1.0"
     },
-    "npm:recast@0.9.17": {
+    "npm:recast@0.9.18": {
       "assert": "github:jspm/nodelibs-assert@0.1.0",
       "ast-types": "npm:ast-types@0.6.11",
       "esprima-fb": "npm:esprima-fb@10001.1.0-dev-harmony-fb",
