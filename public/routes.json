@@ -1,6 +1,4 @@
 {
   "component": "app/zygo-page.jsx!",
-  "/:pid": "zygo-blog/views/article.jsx!",
-  "/:cid/": "zygo-blog/views/article-list.jsx!",
-  "/:cid/:pid": "zygo-blog/views/article.jsx!"
+  "mixin": "zygo-blog/routes.json"
 }
