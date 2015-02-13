@@ -1,4 +1,4 @@
 {
   "component": "app/zygo-page.jsx!",
-  "mixin": "zygo-blog/routes.json"
+  "mixins": "zygo-blog/routes.json"
 }
