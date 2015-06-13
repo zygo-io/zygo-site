@@ -4,6 +4,7 @@
       "baseURL": "public",
       "lib": "public/app"
     },
+    "registry": "jspm",
     "dependencies": {
       "css": "^0.1.5",
       "image": "^0.1.0",
